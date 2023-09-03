@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+html {
+    background: url("image/bankimg.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        width: 100%;
+    }
+}
+
+/* h2 {
+    margin-top: 60px;
+} */
+
+.fixed-header{
+    position: absolute;
+    top : 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    overflow: hidden;
+    background: goldenrod;
+    
+  }
+
+  .container{
+    position: absolute;
+    top : 60px;
+    bottom : 40px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    margin-top: 80px;
+  }
+
+  .fixed-footer{
+    position: absolute;
+    bottom : 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    overflow: hidden;
+    background: goldenrod;
+  }
+
+#inputAmount {
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    border: 1px solid goldenrod;
+    border-radius: 2px;
+}
+
+button {
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    margin: 20px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+#deposit {
+    background: #44a219;
+}
+
+#withdraw {
+    background: rgb(230, 44, 44);
+}
+
+#deposit:hover {
+    background: #5da43d;
+}
+
+#withdraw:hover {
+    background: rgb(230, 75, 75);
+}
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
